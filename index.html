@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./grid.css" />
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="/responsive.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <div class="grid wide">
+          <div class="header__navbar hide-on-tablet-mobile">
+            <ul class="header-navbar__list">
+              <li
+                class="
+                  header-navbar__item
+                  header__hover-qrcode
+                  header-navbar__item--separate
+                "
+              >
+                Vào cửa hàng ứng dụng
+                <div class="header__qr">
+                  <img src="./image/qrcode.png" alt="" class="header__qr-img" />
+                  <div class="header__qr-apps">
+                    <img
+                      src="./image/appstore.png"
+                      alt=""
+                      class="header__qr-img-down"
+                    />
+                    <img
+                      src="./image/ggplay.png"
+                      alt=""
+                      class="header__qr-img-down"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li class="header-navbar__item">
+                kết nối
+                <a class="header-navbar__item-icon" href=""
+                  ><i class="header-navbar__icon bx bxl-facebook-circle"></i
+                ></a>
+                <a class="header-navbar__item-icon" href=""
+                  ><i class="header-navbar__icon bx bxl-instagram"></i
+                ></a>
+              </li>
+            </ul>
+            <ul class="header-navbar__list">
+              <li class="header-navbar__item header__hover-notify">
+                <a class="header-navbar__item-link" href="">
+                  <i class="header-navbar__icon bx bxs-bell"></i>
+                  thông báo
+                </a>
+                <div class="header__notify">
+                  <header class="header__notify-header">
+                    <h3>thông báo mới nhận</h3>
+                  </header>
+                  <ul class="header__notify-list">
+                    <li class="header__notify-item">
+                      <a class="header__notify-link" href="">
+                        <img src="./image/mypham.jpg" alt="" />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">
+                            bán gì đây hông biết
+                          </span>
+                          <span class="header__notify-description">
+                            mô tả cho bán cái gì đây không biết
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li class="header__notify-item">
+                      <a class="header__notify-link" href="">
+                        <img src="./image/mypham.jpg" alt="" />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">
+                            bán gì đây hông biết
+                          </span>
+                          <span class="header__notify-description">
+                            mô tả cho bán cái gì đây không biết
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item">
+                      <a class="header__notify-link" href="">
+                        <img src="./image/mypham.jpg" alt="" />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">
+                            bán gì đây hông biết
+                          </span>
+                          <span class="header__notify-description">
+                            mô tả cho bán cái gì đây không biết
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <footer class="header__notify-footer">
+                    <a href="" class="header__notify-footer-btn">
+                      xem tất cả
+                    </a>
+                  </footer>
+                </div>
+              </li>
+              <li class="header-navbar__item">
+                <a class="header-navbar__item-link" href="">
+                  <i class="header-navbar__icon bx bxs-help-circle"></i> trợ
+                  giúp
+                </a>
+              </li>
+              <!-- <li
+                class="
+                  header-navbar__item
+                  text-bold
+                  header-navbar__item--separate
+                "
+              >
+                đăng ký
+              </li>
+              <li class="header-navbar__item text-bold">đăng nhập</li> -->
+              <li class="header-navbar__item">
+                <div class="header-navbar__user">
+                  <div class="header-nabvar__user-img">
+                    <img
+                      src="./image/Girls-profile-picture-17.jpg"
+                      alt=""
+                      class="header-navbar__user-img"
+                    />
+                  </div>
+                  <span class="header-navbar__user-name"> Thảo Nguyên </span>
+
+                  <div class="header-navbar__menu">
+                    <ul class="header-navbar__menu-action">
+                      <li class="header-navbar__menu-action-item">
+                        <a href=""> tài khoản của tôi </a>
+                      </li>
+                      <li class="header-navbar__menu-action-item">
+                        <a href=""> địa chỉ của tôi </a>
+                      </li>
+                      <li class="header-navbar__menu-action-item">
+                        <a href=""> đơn mua </a>
+                      </li>
+                      <li class="header-navbar__menu-action-item">
+                        <a href=""> đăng xuất </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="header-with-search">
+            <input
+              type="checkbox"
+              class="header__mobile-check-box l-0 c-0"
+              id="mobile-search-check"
+            />
+            <input
+              type="checkbox"
+              class="header__mobile-check-box-menu l-0 c-0"
+              id="mobile-menu-check"
+            />
+            <label
+              for="mobile-menu-check"
+              class="header__mobile-overlay"
+            ></label>
+            <div class="header__mobile-menu l-0 m-0">
+              <h1 class="header__mobile-heading">login/register</h1>
+              <ul class="header__mobile-list">
+                <li class="header__mobile-item">
+                  <a href="" class="header__mobile-item-link"> đăng nhập </a>
+                </li>
+                <li class="header__mobile-item">
+                  <a href="" class="header__mobile-item-link"> đăng ký </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="header__mobile l-0 m-0">
+              <label for="mobile-menu-check">
+                <i class="header__mobile-menu-icon bx bx-menu"></i>
+              </label>
+              <label for="mobile-search-check">
+                <i class="header__mobile-search-icon bx bx-search"></i>
+              </label>
+            </div>
+            <div class="header__logo hide-on-tablet"></div>
+            <div class="header__search">
+              <div class="header__search-input-wrap">
+                <input
+                  placeholder="Tìm sản phẩm , thương hiệu, tên shop"
+                  type="text"
+                />
+                <div class="header__search-history">
+                  <header class="header__search-heading">
+                    <h3 class="header__search-heading-text">
+                      Lịch sử tìm kiếm
+                    </h3>
+                  </header>
+                  <ul class="header__search-list">
+                    <li class="header__search-list-item">kem trị mụn</li>
+                    <li class="header__search-list-item">kem trị thâm</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header__search-selection">
+                <span class="header__search-title"> trong shop </span>
+                <i class="bx bxs-chevron-down"></i>
+
+                <ul class="header__search-option">
+                  <li class="header__search-option-item">
+                    <span>Trong shop</span>
+                    <i class="bx bx-check"></i>
+                  </li>
+                  <li
+                    class="
+                      header__search-option-item
+                      header__search-option-item-active
+                    "
+                  >
+                    <span>Ngoài shop</span>
+                    <i class="bx bx-check"></i>
+                  </li>
+                </ul>
+              </div>
+              <button class="btn btn-size-m btn-primary">
+                <i class="bx bx-search"></i>
+              </button>
+            </div>
+            <div class="header__cart">
+              <i class="bx bx-cart"></i>
+              <span class="header__cart-notice"> 5 </span>
+
+              <div class="header__cart-list">
+                <!-- <img
+                  src="./image/nocart.png"
+                  alt=""
+                  class="header__cart-no-cart-img"
+                />
+                <span class="header__cart-no-cart-detail">
+                  chưa có sản phẩm
+                </span> -->
+                <h4 class="header__cart-header">Sản phẩm được thêm</h4>
+
+                <ul class="header__cart-items">
+                  <li class="header__cart-item">
+                    <div class="header__cart-image">
+                      <img
+                        src="https://i1-sohoa.vnecdn.net/2021/12/09/Image-112867018-ExtractWord-1-6868-2832-1639024905.png?w=680&h=0&q=100&dpr=1&fit=crop&s=hvo0SJ9BXn0mYJJhGNyJCw"
+                        alt=""
+                      />
+                    </div>
+                    <div class="header__cart-info">
+                      <div class="header__cart-title">
+                        <h3 class="header__cart-name">
+                          supper sentai is comming
+                        </h3>
+                        <div class="header__cart-wrap-total">
+                          <span class="header__cart-price"> 2.000.000đ </span>
+                          <span class="header__cart-multiple">x</span>
+                          <span class="header__cart-quantity"> 2 </span>
+                        </div>
+                      </div>
+                      <div class="header__cart-description">
+                        <span class="header__cart-des-name">
+                          Phân loại : bạc
+                        </span>
+                        <span class="header__cart-des-remove"> xóa </span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="header__cart-item">
+                    <div class="header__cart-image">
+                      <img
+                        src="https://i1-sohoa.vnecdn.net/2021/12/09/Image-112867018-ExtractWord-1-6868-2832-1639024905.png?w=680&h=0&q=100&dpr=1&fit=crop&s=hvo0SJ9BXn0mYJJhGNyJCw"
+                        alt=""
+                      />
+                    </div>
+                    <div class="header__cart-info">
+                      <div class="header__cart-title">
+                        <h3 class="header__cart-name">
+                          supper sentai is comming
+                        </h3>
+                        <div class="header__cart-wrap-total">
+                          <span class="header__cart-price"> 2.000.000đ </span>
+                          <span class="header__cart-multiple">x</span>
+                          <span class="header__cart-quantity"> 2 </span>
+                        </div>
+                      </div>
+                      <div class="header__cart-description">
+                        <span class="header__cart-des-name">
+                          Phân loại : bạc
+                        </span>
+                        <span class="header__cart-des-remove"> xóa </span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="header__cart-item">
+                    <div class="header__cart-image">
+                      <img
+                        src="https://i1-sohoa.vnecdn.net/2021/12/09/Image-112867018-ExtractWord-1-6868-2832-1639024905.png?w=680&h=0&q=100&dpr=1&fit=crop&s=hvo0SJ9BXn0mYJJhGNyJCw"
+                        alt=""
+                      />
+                    </div>
+                    <div class="header__cart-info">
+                      <div class="header__cart-title">
+                        <h3 class="header__cart-name">
+                          supper sentai is comming
+                        </h3>
+                        <div class="header__cart-wrap-total">
+                          <span class="header__cart-price"> 2.000.000đ </span>
+                          <span class="header__cart-multiple">x</span>
+                          <span class="header__cart-quantity"> 2 </span>
+                        </div>
+                      </div>
+                      <div class="header__cart-description">
+                        <span class="header__cart-des-name">
+                          Phân loại : bạc
+                        </span>
+                        <span class="header__cart-des-remove"> xóa </span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="header__cart-btn">
+                  <button class="btn btn-primary header__cart-check-out">
+                    xem giỏ hàng
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="header__sort-bar">
+          <li class="header__sort-item">
+            <a href="" class="header__sort-item-link"> Liên quan </a>
+          </li>
+          <li class="header__sort-item">
+            <a href="" class="header__sort-item-link"> Mới nhất </a>
+          </li>
+          <li class="header__sort-item">
+            <a href="" class="header__sort-item-link"> Bán chạy </a>
+          </li>
+          <li class="header__sort-item">
+            <a href="" class="header__sort-item-link"> Giá </a>
+          </li>
+        </ul>
+      </header>
+      <div class="my-container">
+        <div class="grid wide">
+          <div class="row row__content">
+            <div class="col l-2 m-0 c-0">
+              <nav class="category">
+                <h3 class="category__header">
+                  <i class="category__header-icon bx bx-list-ul"></i>
+                  Danh Mục
+                </h3>
+                <ul class="category__list">
+                  <li class="category__item category__item-active">
+                    <a class="category__item-link" href=""> Trang điểm mặt </a>
+                  </li>
+                  <li class="category__item">
+                    <a class="category__item-link" href=""> Trang điểm mặt </a>
+                  </li>
+                  <li class="category__item">
+                    <a class="category__item-link" href=""> Trang điểm mặt </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col l-10 m-12 c-12">
+              <div class="home-filter m-0 c-0">
+                <span class="home-filter__lable"> sắp xếp theo </span>
+                <div class="home-filter-btn btn">Phổ biến</div>
+                <div class="home-filter-btn btn btn-primary">Mới nhất</div>
+                <div class="home-filter-btn btn">Bán chạy</div>
+                <div class="home-filter__selection selection-input">
+                  <span class="home-filter__selection-lable"> giá </span>
+                  <i class="bx bxs-chevron-down selection-input__icon"></i>
+
+                  <ul class="selection-input__list">
+                    <li class="selection-input__option">
+                      <a href=""> giá : từ cao đến thấp </a>
+                    </li>
+                    <li class="selection-input__option">
+                      <a href=""> giá : từ thấp đến cao </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="home-filter__page">
+                  <span class="home-filter__page-curent">
+                    1
+                    <span class="home-filter__page-next"> /12 </span>
+                  </span>
+                  <div class="home-filter__switch-btn">
+                    <button
+                      class="switch-btn switch-btn--disable switch-btn-left"
+                    >
+                      <i class="bx bxs-chevron-left"></i>
+                    </button>
+                    <button class="switch-btn switch-btn-right">
+                      <i class="bx bxs-chevron-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <nav class="mobile__category l-0">
+                <ul class="mobile__category-list">
+                  <li class="mobile__category-item">
+                    <a href="" class="mobile__category-item-link"
+                      >Spiderman noway home</a
+                    >
+                  </li>
+                  <li class="mobile__category-item">
+                    <a href="" class="mobile__category-item-link"
+                      >Spiderman noway home</a
+                    >
+                  </li>
+                  <li class="mobile__category-item">
+                    <a href="" class="mobile__category-item-link"
+                      >Spiderman noway home</a
+                    >
+                  </li>
+                  <li class="mobile__category-item">
+                    <a href="" class="mobile__category-item-link"
+                      >Spiderman noway home</a
+                    >
+                  </li>
+                  <li class="mobile__category-item">
+                    <a href="" class="mobile__category-item-link"
+                      >Spiderman noway home</a
+                    >
+                  </li>
+                  <li class="mobile__category-item">
+                    <a href="" class="mobile__category-item-link"
+                      >Spiderman noway home</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="home-products">
+                <div class="row sm-gutter">
+                  <div class="col l-2-4 m-4 c-6">
+                    <a class="home-product" href="#">
+                      <div
+                        style="
+                          background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ab36101/nmhp/vn.jpg);
+                        "
+                        class="home-product__img"
+                      ></div>
+                      <h4 class="home-product__name">
+                        Watch a selection of new movies and TV shows without
+                        adding any payment details!
+                      </h4>
+                      <div class="home-product__price">
+                        <span class="home-product__old-price">
+                          11.000.000đ
+                        </span>
+                        <span class="home-product__new-price">
+                          10.000.000đ
+                        </span>
+                      </div>
+                      <div
+                        class="home-product__action home-product__action-liked"
+                      >
+                        <span class="home-product__like">
+                          <i
+                            class="home-product__action-unlike bx bx-heart"
+                          ></i>
+                          <i class="home-product__action-like bx bxs-heart"></i>
+                        </span>
+                        <span class="home-product__rating">
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                        </span>
+                        <!-- <span class="home-product__sold"> 99 đã bán </span> -->
+                      </div>
+                      <div class="home-product__banner">
+                        <span class="home-product__baner-name"> nexflix </span>
+                        <span class="home-product__banner-origin">
+                          hàn quốc
+                        </span>
+                      </div>
+                      <div class="home-product__favourite">
+                        <i class="bx bx-check"> </i>
+                        <span class="home-prodcut__favourite-text">
+                          Yêu thích
+                        </span>
+                      </div>
+                      <div class="home-product__sale-off">
+                        <span class="home-product__sale-off-percent">
+                          10%
+                        </span>
+                        <span class="home-prodcut__sale-off-lable"> GIẢM </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col l-2-4 m-4 c-6">
+                    <a class="home-product" href="#">
+                      <div
+                        style="
+                          background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ab36101/nmhp/vn.jpg);
+                        "
+                        class="home-product__img"
+                      ></div>
+                      <h4 class="home-product__name">
+                        Watch a selection of new movies and TV shows without
+                        adding any payment details!
+                      </h4>
+                      <div class="home-product__price">
+                        <span class="home-product__old-price">
+                          11.000.000đ
+                        </span>
+                        <span class="home-product__new-price">
+                          10.000.000đ
+                        </span>
+                      </div>
+                      <div
+                        class="home-product__action home-product__action-liked"
+                      >
+                        <span class="home-product__like">
+                          <i
+                            class="home-product__action-unlike bx bx-heart"
+                          ></i>
+                          <i class="home-product__action-like bx bxs-heart"></i>
+                        </span>
+                        <span class="home-product__rating">
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                        </span>
+                        <!-- <span class="home-product__sold"> 99 đã bán </span> -->
+                      </div>
+                      <div class="home-product__banner">
+                        <span class="home-product__baner-name"> nexflix </span>
+                        <span class="home-product__banner-origin">
+                          hàn quốc
+                        </span>
+                      </div>
+                      <div class="home-product__favourite">
+                        <i class="bx bx-check"> </i>
+                        <span class="home-prodcut__favourite-text">
+                          Yêu thích
+                        </span>
+                      </div>
+                      <div class="home-product__sale-off">
+                        <span class="home-product__sale-off-percent">
+                          10%
+                        </span>
+                        <span class="home-prodcut__sale-off-lable"> GIẢM </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col l-2-4 m-4 c-6">
+                    <a class="home-product" href="#">
+                      <div
+                        style="
+                          background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ab36101/nmhp/vn.jpg);
+                        "
+                        class="home-product__img"
+                      ></div>
+                      <h4 class="home-product__name">
+                        Watch a selection of new movies and TV shows without
+                        adding any payment details!
+                      </h4>
+                      <div class="home-product__price">
+                        <span class="home-product__old-price">
+                          11.000.000đ
+                        </span>
+                        <span class="home-product__new-price">
+                          10.000.000đ
+                        </span>
+                      </div>
+                      <div
+                        class="home-product__action home-product__action-liked"
+                      >
+                        <span class="home-product__like">
+                          <i
+                            class="home-product__action-unlike bx bx-heart"
+                          ></i>
+                          <i class="home-product__action-like bx bxs-heart"></i>
+                        </span>
+                        <span class="home-product__rating">
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                        </span>
+                        <!-- <span class="home-product__sold"> 99 đã bán </span> -->
+                      </div>
+                      <div class="home-product__banner">
+                        <span class="home-product__baner-name"> nexflix </span>
+                        <span class="home-product__banner-origin">
+                          hàn quốc
+                        </span>
+                      </div>
+                      <div class="home-product__favourite">
+                        <i class="bx bx-check"> </i>
+                        <span class="home-prodcut__favourite-text">
+                          Yêu thích
+                        </span>
+                      </div>
+                      <div class="home-product__sale-off">
+                        <span class="home-product__sale-off-percent">
+                          10%
+                        </span>
+                        <span class="home-prodcut__sale-off-lable"> GIẢM </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col l-2-4 m-4 c-6">
+                    <a class="home-product" href="#">
+                      <div
+                        style="
+                          background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ab36101/nmhp/vn.jpg);
+                        "
+                        class="home-product__img"
+                      ></div>
+                      <h4 class="home-product__name">
+                        Watch a selection of new movies and TV shows without
+                        adding any payment details!
+                      </h4>
+                      <div class="home-product__price">
+                        <span class="home-product__old-price">
+                          11.000.000đ
+                        </span>
+                        <span class="home-product__new-price">
+                          10.000.000đ
+                        </span>
+                      </div>
+                      <div
+                        class="home-product__action home-product__action-liked"
+                      >
+                        <span class="home-product__like">
+                          <i
+                            class="home-product__action-unlike bx bx-heart"
+                          ></i>
+                          <i class="home-product__action-like bx bxs-heart"></i>
+                        </span>
+                        <span class="home-product__rating">
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                        </span>
+                        <!-- <span class="home-product__sold"> 99 đã bán </span> -->
+                      </div>
+                      <div class="home-product__banner">
+                        <span class="home-product__baner-name"> nexflix </span>
+                        <span class="home-product__banner-origin">
+                          hàn quốc
+                        </span>
+                      </div>
+                      <div class="home-product__favourite">
+                        <i class="bx bx-check"> </i>
+                        <span class="home-prodcut__favourite-text">
+                          Yêu thích
+                        </span>
+                      </div>
+                      <div class="home-product__sale-off">
+                        <span class="home-product__sale-off-percent">
+                          10%
+                        </span>
+                        <span class="home-prodcut__sale-off-lable"> GIẢM </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col l-2-4 m-4 c-6">
+                    <a class="home-product" href="#">
+                      <div
+                        style="
+                          background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ab36101/nmhp/vn.jpg);
+                        "
+                        class="home-product__img"
+                      ></div>
+                      <h4 class="home-product__name">
+                        Watch a selection of new movies and TV shows without
+                        adding any payment details!
+                      </h4>
+                      <div class="home-product__price">
+                        <span class="home-product__old-price">
+                          11.000.000đ
+                        </span>
+                        <span class="home-product__new-price">
+                          10.000.000đ
+                        </span>
+                      </div>
+                      <div
+                        class="home-product__action home-product__action-liked"
+                      >
+                        <span class="home-product__like">
+                          <i
+                            class="home-product__action-unlike bx bx-heart"
+                          ></i>
+                          <i class="home-product__action-like bx bxs-heart"></i>
+                        </span>
+                        <span class="home-product__rating">
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                        </span>
+                        <!-- <span class="home-product__sold"> 99 đã bán </span> -->
+                      </div>
+                      <div class="home-product__banner">
+                        <span class="home-product__baner-name"> nexflix </span>
+                        <span class="home-product__banner-origin">
+                          hàn quốc
+                        </span>
+                      </div>
+                      <div class="home-product__favourite">
+                        <i class="bx bx-check"> </i>
+                        <span class="home-prodcut__favourite-text">
+                          Yêu thích
+                        </span>
+                      </div>
+                      <div class="home-product__sale-off">
+                        <span class="home-product__sale-off-percent">
+                          10%
+                        </span>
+                        <span class="home-prodcut__sale-off-lable"> GIẢM </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col l-2-4 m-4 c-6">
+                    <a class="home-product" href="#">
+                      <div
+                        style="
+                          background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ab36101/nmhp/vn.jpg);
+                        "
+                        class="home-product__img"
+                      ></div>
+                      <h4 class="home-product__name">
+                        Watch a selection of new movies and TV shows without
+                        adding any payment details!
+                      </h4>
+                      <div class="home-product__price">
+                        <span class="home-product__old-price">
+                          11.000.000đ
+                        </span>
+                        <span class="home-product__new-price">
+                          10.000.000đ
+                        </span>
+                      </div>
+                      <div
+                        class="home-product__action home-product__action-liked"
+                      >
+                        <span class="home-product__like">
+                          <i
+                            class="home-product__action-unlike bx bx-heart"
+                          ></i>
+                          <i class="home-product__action-like bx bxs-heart"></i>
+                        </span>
+                        <span class="home-product__rating">
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                        </span>
+                        <!-- <span class="home-product__sold"> 99 đã bán </span> -->
+                      </div>
+                      <div class="home-product__banner">
+                        <span class="home-product__baner-name"> nexflix </span>
+                        <span class="home-product__banner-origin">
+                          hàn quốc
+                        </span>
+                      </div>
+                      <div class="home-product__favourite">
+                        <i class="bx bx-check"> </i>
+                        <span class="home-prodcut__favourite-text">
+                          Yêu thích
+                        </span>
+                      </div>
+                      <div class="home-product__sale-off">
+                        <span class="home-product__sale-off-percent">
+                          10%
+                        </span>
+                        <span class="home-prodcut__sale-off-lable"> GIẢM </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col l-2-4 m-4 c-6">
+                    <a class="home-product" href="#">
+                      <div
+                        style="
+                          background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ab36101/nmhp/vn.jpg);
+                        "
+                        class="home-product__img"
+                      ></div>
+                      <h4 class="home-product__name">
+                        Watch a selection of new movies and TV shows without
+                        adding any payment details!
+                      </h4>
+                      <div class="home-product__price">
+                        <span class="home-product__old-price">
+                          11.000.000đ
+                        </span>
+                        <span class="home-product__new-price">
+                          10.000.000đ
+                        </span>
+                      </div>
+                      <div
+                        class="home-product__action home-product__action-liked"
+                      >
+                        <span class="home-product__like">
+                          <i
+                            class="home-product__action-unlike bx bx-heart"
+                          ></i>
+                          <i class="home-product__action-like bx bxs-heart"></i>
+                        </span>
+                        <span class="home-product__rating">
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                        </span>
+                        <!-- <span class="home-product__sold"> 99 đã bán </span> -->
+                      </div>
+                      <div class="home-product__banner">
+                        <span class="home-product__baner-name"> nexflix </span>
+                        <span class="home-product__banner-origin">
+                          hàn quốc
+                        </span>
+                      </div>
+                      <div class="home-product__favourite">
+                        <i class="bx bx-check"> </i>
+                        <span class="home-prodcut__favourite-text">
+                          Yêu thích
+                        </span>
+                      </div>
+                      <div class="home-product__sale-off">
+                        <span class="home-product__sale-off-percent">
+                          10%
+                        </span>
+                        <span class="home-prodcut__sale-off-lable"> GIẢM </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col l-2-4 m-4 c-6">
+                    <a class="home-product" href="#">
+                      <div
+                        style="
+                          background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ab36101/nmhp/vn.jpg);
+                        "
+                        class="home-product__img"
+                      ></div>
+                      <h4 class="home-product__name">
+                        Watch a selection of new movies and TV shows without
+                        adding any payment details!
+                      </h4>
+                      <div class="home-product__price">
+                        <span class="home-product__old-price">
+                          11.000.000đ
+                        </span>
+                        <span class="home-product__new-price">
+                          10.000.000đ
+                        </span>
+                      </div>
+                      <div
+                        class="home-product__action home-product__action-liked"
+                      >
+                        <span class="home-product__like">
+                          <i
+                            class="home-product__action-unlike bx bx-heart"
+                          ></i>
+                          <i class="home-product__action-like bx bxs-heart"></i>
+                        </span>
+                        <span class="home-product__rating">
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                        </span>
+                        <!-- <span class="home-product__sold"> 99 đã bán </span> -->
+                      </div>
+                      <div class="home-product__banner">
+                        <span class="home-product__baner-name"> nexflix </span>
+                        <span class="home-product__banner-origin">
+                          hàn quốc
+                        </span>
+                      </div>
+                      <div class="home-product__favourite">
+                        <i class="bx bx-check"> </i>
+                        <span class="home-prodcut__favourite-text">
+                          Yêu thích
+                        </span>
+                      </div>
+                      <div class="home-product__sale-off">
+                        <span class="home-product__sale-off-percent">
+                          10%
+                        </span>
+                        <span class="home-prodcut__sale-off-lable"> GIẢM </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col l-2-4 m-4 c-6">
+                    <a class="home-product" href="#">
+                      <div
+                        style="
+                          background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ab36101/nmhp/vn.jpg);
+                        "
+                        class="home-product__img"
+                      ></div>
+                      <h4 class="home-product__name">
+                        Watch a selection of new movies and TV shows without
+                        adding any payment details!
+                      </h4>
+                      <div class="home-product__price">
+                        <span class="home-product__old-price">
+                          11.000.000đ
+                        </span>
+                        <span class="home-product__new-price">
+                          10.000.000đ
+                        </span>
+                      </div>
+                      <div
+                        class="home-product__action home-product__action-liked"
+                      >
+                        <span class="home-product__like">
+                          <i
+                            class="home-product__action-unlike bx bx-heart"
+                          ></i>
+                          <i class="home-product__action-like bx bxs-heart"></i>
+                        </span>
+                        <span class="home-product__rating">
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                          <i class="home-product__rating-icon bx bxs-star"></i>
+                        </span>
+                        <!-- <span class="home-product__sold"> 99 đã bán </span> -->
+                      </div>
+                      <div class="home-product__banner">
+                        <span class="home-product__baner-name"> nexflix </span>
+                        <span class="home-product__banner-origin">
+                          hàn quốc
+                        </span>
+                      </div>
+                      <div class="home-product__favourite">
+                        <i class="bx bx-check"> </i>
+                        <span class="home-prodcut__favourite-text">
+                          Yêu thích
+                        </span>
+                      </div>
+                      <div class="home-product__sale-off">
+                        <span class="home-product__sale-off-percent">
+                          10%
+                        </span>
+                        <span class="home-prodcut__sale-off-lable"> GIẢM </span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <ul class="pagination home-pagination">
+                <li class="pagination__item-active pagination__item">
+                  <a href="" class="pagination__item-link">
+                    <i class="pagination__item-icon bx bxs-chevron-left"></i>
+                  </a>
+                </li>
+                <li class="pagination__item">
+                  <a
+                    href=""
+                    class="pagination__item-link-active pagination__item-link"
+                    >1</a
+                  >
+                </li>
+                <li class="pagination__item">
+                  <a href="" class="pagination__item-link">2</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="" class="pagination__item-link">3</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="" class="pagination__item-link">4</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="" class="pagination__item-link">5</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="" class="pagination__item-link">...</a>
+                </li>
+                <li class="pagination__item">
+                  <a href="" class="pagination__item-link">14</a>
+                </li>
+                <li class="pagination__item-active pagination__item">
+                  <a href="" class="pagination__item-link">
+                    <i class="pagination__item-icon bx bxs-chevron-right"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="grid wide">
+          <div class="row">
+            <div class="col l-2-4 m-4 c-6">
+              <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a href="" class="footer__list-item-link">
+                    Trung tâm trợ giúp
+                  </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="" class="footer__list-item-link"> TickID Mail </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="" class="footer__list-item-link">
+                    Hướng dẫn mua hàng
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col l-2-4 m-4 c-6">
+              <h3 class="footer__heading">Về TICKID</h3>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a href="" class="footer__list-item-link">
+                    Giới thiệu về TickId Việt Nam
+                  </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="" class="footer__list-item-link"> Tuyển dụng </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="" class="footer__list-item-link">
+                    Diểu khoản TickID
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col l-2-4 m-4 c-6">
+              <h3 class="footer__heading">Về TICKID</h3>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a href="" class="footer__list-item-link">
+                    Giới thiệu về TickId Việt Nam
+                  </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="" class="footer__list-item-link"> Tuyển dụng </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="" class="footer__list-item-link">
+                    Diểu khoản TickID
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col l-2-4">
+              <h3 class="footer__heading">Theo dõi chúng tôi trên</h3>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a href="" class="footer__list-item-link">
+                    <i class="footer__socials-icon bx bxl-facebook-square"></i>
+                    facebook
+                  </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="" class="footer__list-item-link">
+                    <i class="footer__socials-icon bx bxl-instagram"></i>
+                    instagram
+                  </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="" class="footer__list-item-link">
+                    <i class="footer__socials-icon bx bxl-linkedin-square"></i>
+                    linkedin
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col l-2-4">
+              <h3 class="footer__heading">Vào cửa hàng trên ứng dụng TICKID</h3>
+              <div class="footer__app">
+                <img class="footer__app-img" src="./image/qrcode.png" alt="" />
+                <div class="footer__app-down">
+                  <img src="./image/appstore.png" alt="" />
+                  <img src="./image/ggplay.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__body">
+        <div class="auth-form">
+          <div class="auth-from__container">
+            <header class="auth-form__header">
+              <h3 class="auth-form__heading">đăng ký</h3>
+              <span class="auth-form__switch-btn"> đăng nhập </span>
+            </header>
+            <div class="auth-form__form">
+              <div class="form__group">
+                <input placeholder="nhập tên tài khoản" type="text" />
+              </div>
+              <div class="form__group">
+                <input type="password" placeholder="nhập password" />
+              </div>
+              <div class="form__group">
+                <input type="password" placeholder="nhập lại password" />
+              </div>
+            </div>
+            <div class="auth-form__policy">
+              <p class="auth-form__policy-text">
+                bằng việc đăng ký , bạn đồng ý với chúng tôi về điều về
+                <span>điều khoản dịch vụ</span>& <span>chính sách bảo mật</span>
+              </p>
+            </div>
+            <div class="auth-form__controls">
+              <button class="btn btn--normal">TRỞ LẠI</button>
+              <button class="btn btn-primary">ĐĂNG KÝ</button>
+            </div>
+          </div>
+          <div class="auth-from__socials">
+            <a
+              href=""
+              class="auth-form__socials-facebook btn btn--size-s btn-with-icon"
+            >
+              <i class="auth-form__socials-icon bx bxl-facebook-square"></i>
+              <span>kết nối với facebook</span>
+            </a>
+            <a
+              href=""
+              class="auth-form__socials-google btn btn--size-s btn-with-icon"
+            >
+              <i class="auth-form__socials-icon bx bxl-google"></i>
+              <span>kết nối với google</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
